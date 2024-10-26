@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-19T16:37:59 IST" name="Default suite" finished-at="2024-10-19T16:38:34 IST" duration-ms="35627">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@1d2adfbe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-19T16:37:59 IST" name="Default test" finished-at="2024-10-19T16:38:34 IST" duration-ms="35627">
+      <class name="TestRunner.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.CucumberTestRunner@1d2adfbe]" started-at="2024-10-19T16:37:59 IST" name="setUpClass" finished-at="2024-10-19T16:38:00 IST" duration-ms="1124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7569ea63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@1d2adfbe]" started-at="2024-10-19T16:38:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-19T16:38:12 IST" duration-ms="12280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login is working with valid credintals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@1d2adfbe]" started-at="2024-10-19T16:38:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-19T16:38:20 IST" duration-ms="8216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login is not working with invalid credintals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@1d2adfbe]" started-at="2024-10-19T16:38:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-19T16:38:28 IST" duration-ms="7904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login is not working with invalid credintals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@1d2adfbe]" started-at="2024-10-19T16:38:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-19T16:38:34 IST" duration-ms="5959" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify logo present int login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at stepDefinitions.LoginStepDefintion.user_can_see_ornage_hrm_logo(LoginStepDefintion.java:57)
+at ✽.User can see ornageHrm logo(file:///F:/Selenium/CucumberOrangehrmdemo/src/test/resources/features/login.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.CucumberTestRunner@1d2adfbe]" started-at="2024-10-19T16:38:34 IST" name="tearDownClass" finished-at="2024-10-19T16:38:34 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.CucumberTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
