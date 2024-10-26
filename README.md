@@ -28,7 +28,7 @@ This repository contains a comprehensive automation testing framework for the Or
 - **Cross-Browser Testing**: Supports testing on multiple browsers (Chrome, Firefox, etc.).
 - **Test Reporting**: Generates detailed test reports for better visibility of test results.
 
-##License
+## License
 
 [MIT License](LICENSE)
 
