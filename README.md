@@ -18,7 +18,7 @@ This repository contains a comprehensive automation testing framework for the Or
 - **Selenium**: For browser automation.
 - **Java**: The primary programming language.
 - **Cucumber**: For writing tests in a BDD format.
-- **JUnit**: For test execution and assertions.
+- **TestNG**: For test execution and assertions.
 - **Maven**: For project management and dependency management.
 
 ## Features
