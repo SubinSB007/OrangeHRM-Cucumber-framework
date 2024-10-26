@@ -27,3 +27,6 @@ This repository contains a comprehensive automation testing framework for the Or
 - **BDD Approach**: Tests are written in a Gherkin syntax, improving collaboration between technical and non-technical team members.
 - **Cross-Browser Testing**: Supports testing on multiple browsers (Chrome, Firefox, etc.).
 - **Test Reporting**: Generates detailed test reports for better visibility of test results.
+
+
+
